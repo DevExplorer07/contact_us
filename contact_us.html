@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <style>
+        links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 5%;
+        }
+
+        .links a img {
+            width: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Get in touch with us</h2>
+    <form action="https://twitter.com/messages/1263033821898903552-1263033821898903552">
+        <label for="name">Name</label>
+        <input type="text" placeholder="enter name" id="name" name="name">
+        <br>
+        <br>
+        <label for="mail">Email</label>
+        <input type="email" placeholder="enter email id" id="email" name="mail">
+        <br>
+        <br>
+        <label for="number">Phone</label>
+        <input type="tel" placeholder="enter mobile number" id="number" name="number">
+        <br>
+        <br>
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+
+            <option disabled selected>Select Gender</option>
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="other">Other</option>
+            <option value="">Rather not to say</option>
+            <!--Rather not to say will not return to the server anything since its value is empty,when submitted-->
+        </select>
+        <br>
+        <br>
+        <label for="DoB">Date of Birth</label>
+        <input type="date" name="Date of Birth" id="DoB">
+        <br>
+        <br>
+        <label for="rating">Rate Us:</label>
+        <br>
+        <br>
+        <label>
+            <input type="radio" name="rating" value="1">
+            1
+        </label>
+
+        <label>
+            <input type="radio" name="rating" value="2">
+            2
+        </label>
+
+        <label>
+            <input type="radio" name="rating" value="3">
+            3
+        </label>
+
+        <label>
+            <input type="radio" name="rating" value="4">
+            4
+        </label>
+
+        <label>
+            <input type="radio" name="rating" value="5">
+            5
+        </label>
+        <br><br>
+        <label>
+            Enter your message:
+            <br>
+            <br>
+            <textarea name="message" id="" cols="50" rows="10" placeholder="Message"></textarea>
+        </label>
+        <input type="submit" value="send">
+        <br>
+        <br>
+        <input type="reset" value="clear all">
+    </form>
+
+
+    <div>
+        <h4>Contact</h4>
+    </div>
+
+
+    <div class="links">
+        <ul>
+            <li><a href="mailto:debakantpradhan646@gmail.com" target="_blank"><img src="gmail.png" ></a></li>
+            <li><a href="https://www.linkedin.com/in/debakant-pradhan-408319217/ "target="_blank"><img src="Linkedin.png" ></a></li>
+            <li><a href="https://www.instagram.com/dev_k_18/" target="_blank"><img src="instagram1.png"  ></a></li>
+            <li><a href="https://twitter.com/higgsboson09" target="_blank"><img src="twitter.png" ></a></li>
+            <li>
+                <a href="https://wa.me/916372816886?text=Hey" target="_blank"><img src="whatsapp.png" ></a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
